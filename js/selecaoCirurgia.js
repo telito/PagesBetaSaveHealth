@@ -1,4 +1,4 @@
-URL = 'http://localhost:3333/cirugia'
+URL = 'https://saveh.herokuapp.com/cirugia'
 recebe = []
 fetch(URL, {
     method: 'get',
