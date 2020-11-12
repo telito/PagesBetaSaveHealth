@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar um ponto e coleta</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/create-point.css">
+    <link rel="stylesheet" href="../css/antesdainducao.css">
+   
+
+
+
+</head>
+
+<body>
+    <div id="page-create-point">
+
+        <header>
+            <img src="../assets/pp.png" alt="">
+
+            <a href="../assets/pp.png">
+                <span></span>
+                Voltar para home
+            </a>
+
+        </header>
+
+
+        <form action="cirurgia.html">
+
+            <h1>Antes da indução anestésica
+                Check in </h1>
+
+                <h2>Confirmação sobre o cliente</h>
+
+            <fieldset>
+                
+                <div class="field">
+                    <label for=""><input type="checkbox"> Identificação do cliente</label>
+                    <label for=""><input type="checkbox"> Local da cirurgia</label>
+                    <label for=""><input type="checkbox"> Procedimento a ser realizado</label>
+                    <label for=""><input type="checkbox"> Consentimento anestésico e cirúrgico</label>
+                    <label for=""><input type="checkbox"> Sítio cirúrgico certo</label>
+
+                 </div>
+
+                 <!-- Montagem SO-->
+                <div class="field">
+                    <label for=""> Montagem da SO de acordo com o procedimento programado </label>
+                    <div>Sim <input type="radio" name="montaSO" value="sim">
+                        Não <input type="radio" name="montaSO" value="nao"></div>
+                </div>
+
+                <!-- Revisão dos equipamentos de anestesia-->
+                <div class="field">
+                    <label for=""> Revisão dos equipamentos de anestesia </label>
+                    <div>Sim <input type="radio" name="revisa" value="sim">
+                        Não <input type="radio" name="revisa" value="nao"></div>
+                </div>
+
+                <!-- Materiais de vias aéreas disponíveis e funcionantes -->
+                <div class="field">
+                    <label for=""> Revisão dos equipamentos de anestesia </label>
+                    <div class="diminui-fonte">
+                        <input type="checkbox">Laringoscópio
+                        <input type="checkbox">Fio guia
+                        <input type="checkbox">Bougie
+                        <input type="checkbox">Guedel
+                        <input type="checkbox">Máscara de O2
+                        <input type="checkbox">Ambú
+                        <input type="checkbox">Aspirador
+                        <input type="checkbox">Cânula Endotraqueal
+                    
+                    </div>
+                </div>
+
+                <!-- Há risco de perda sanguínea >500mL (7mL/Kg em crianças)? -->
+                <div class="field">
+                    <label for=""> Há risco de perda sanguínea >500mL (7mL/Kg em crianças)?  </label>
+                    <div>Sim <input type="radio" name="sanguineo" value="sim">
+                        Não <input type="radio" name="sanguineo" value="nao"></div>
+                </div>
+
+                <!-- Reserva sanguínea?  -->
+                <div class="field">
+                    <label for=""> Reserva sanguínea?   </label>
+                    <div>Sim <input type="radio" name="ReservaSanguinea" value="sim">
+                        Não <input type="radio" name="ReservaSanguinea" value="nao"></div>
+                </div>
+
+                <!-- Reserva sanguínea?  -->
+                <div class="field">
+                    <label for=""> Acesso venoso adequado e pérvio?   </label>
+                    <div>
+                        Sim <input type="radio" name="Acessovenoso" value="sim">
+                        Não <input type="radio" name="Acessovenoso" value="nao">
+
+                        AVC <input type="radio" name="Acessovenoso" value="AVC">
+                        AVP <input type="radio" name="Acessovenoso" value="AVP">
+                    </div>
+
+
+                </div>
+
+                <!-- O cliente tem alergia?  -->
+                <div class="field">
+                    <label for=""> O cliente tem alergia?  </label>
+                    <div>
+                        Sim <input type="radio" name="Alergia" value="sim">
+                        Não <input type="radio" name="Alergia" value="nao">
+
+                    
+                    </div>
+
+
+                </div>
+
+                OBS: <textarea name="" id="" cols="30" rows="10"></textarea>
+
+                 <div class="field">
+                    <button class="success">Proximo</button>
+                 </div>
+
+                 <div class="field">
+                    <button class="danger">Cancela</button>
+                 </div>
+
+
+            </fieldset>
+
+          
+
+
+
+
+           
+
+
+            
+
+        </form>
+
+    </div>
+
+
+
+
+    <script src="../js/geral.js"></script>
+</body>
+
+</html>

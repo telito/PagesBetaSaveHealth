@@ -1,0 +1,58 @@
+.field{
+    align-items: center;
+}
+
+
+
+img{
+    max-width: 150px;
+}
+
+.medico-responsavel{
+
+    display: flex;
+
+    align-items: center;
+}
+
+.medico-responsavel div h4{
+    margin-bottom: 10px;
+}
+
+.contador{
+    height: 200px;
+    background-color:#34cb79;
+    color:white !important;
+    border-radius: 18px;
+}
+#contagem{
+    font-size:5em;
+}
+#andamento{
+    margin-top: 20px;
+    font-size: 2em;
+}
+
+@media(max-width:700px){
+    .medico-responsavel {
+    
+        
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #contagem{
+        font-size:2em;
+    }
+    .contador{
+        height: 100px;
+      
+    }
+
+    #andamento{
+        font-size: 1em;
+    }
+
+   
+}

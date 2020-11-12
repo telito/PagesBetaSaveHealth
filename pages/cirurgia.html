@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar um ponto e coleta</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/create-point.css">
+    <link rel="stylesheet" href="../css/cirugia.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+
+
+
+</head>
+
+<body>
+    <div id="page-create-point">
+
+        <header>
+            <img src="../assets/pp.png" alt="">
+
+            <a href="../assets/pp.png">
+                <span></span>
+                Voltar para home
+            </a>
+
+        </header>
+
+
+        <form action="startLimpeza.html">
+
+           
+
+            <fieldset>
+                
+                <div class="field contador">
+                    
+
+                    <h4 id="andamento">Em andamento..</h4>
+                 </div>
+
+
+                 <div class="field">
+                    <button class="danger" onclick="finaliza()">Finaliza</button>
+                 </div>
+
+
+            </fieldset>
+
+
+
+
+            <div class="medico-responsavel">
+                <img src="../img/douto.jpg" alt="">
+
+                <div>
+                    <h4 id="nome-responsavel">Nome do responsavel:</h4>
+
+                    <h4 id="nome-cirurgia">Nome Círurgia:</h4>
+                </div>
+
+               
+
+
+            </div>
+
+            <div class="medico-responsavel">
+                <img src="../img/paciente.png" alt="">
+
+                <div>
+                    <h4 id="nome-paciente">Nome do paciente:</h4>
+
+                    
+                </div>
+
+               
+
+
+            </div>
+
+        </form>
+
+    </div>
+
+
+
+    <script src="../js/start.js"></script>
+    <script src="script/creat-point.js"></script>
+</body>
+
+</html>

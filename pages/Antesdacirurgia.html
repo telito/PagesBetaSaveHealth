@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar um ponto e coleta</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/create-point.css">
+    <link rel="stylesheet" href="../css/antesdainducao.css">
+   
+
+
+
+</head>
+
+<body>
+    <div id="page-create-point">
+
+        <header>
+            <img src="../assets/pp.png" alt="">
+
+            <a href="../assets/pp.png">
+                <span></span>
+                Voltar para home
+            </a>
+
+        </header>
+
+
+        <form action="cirurgia.html">
+
+            <h1>Antes de iniciar a cirurgia
+                Time out</h1>
+
+                
+
+            <fieldset>
+                
+                
+                <div class="field especial">
+                    Apresentação oral, nome e função de todos os profissionais <br><br>
+
+                    <label for="">Staff:  Sim <input type="radio" name="staff" value="sim">  Não <input type="radio" name="staff" value="nao"></label>
+                    <label for="">1º cirurgião :  Sim <input type="radio" name="staff" value="sim">  Não <input type="radio" name="staff" value="nao"></label>
+                    <label for="">2º cirurgião :  Sim <input type="radio" name="staff" value="sim">  Não <input type="radio" name="staff" value="nao"></label>
+                    <label for="">Anestesista :  Sim <input type="radio" name="staff" value="sim">  Não <input type="radio" name="staff" value="nao"></label>
+                    <label for="">Circulante :  Sim <input type="radio" name="staff" value="sim">  Não <input type="radio" name="staff" value="nao"></label>
+
+                 </div>
+
+                 <!-- Cirurgiões, anestesistas e equipe de enfermagem confirmam: -->
+                <div class="field">
+                    <label for=""> Cirurgiões, anestesistas e equipe de enfermagem confirmam:  </label>
+                    <div><input type="checkbox"> identificação do cliente </div>
+                    <div><input type="checkbox"> Sitio cirúrgico </div>
+                    <div><input type="checkbox"> Procedimento a ser realizado  </div>
+                       
+                </div>
+
+                <!-- Uso de antibiótico profilático -->
+                <div class="field">
+                    <label for="">Uso de antibiótico profilático  </label>
+                    <div>Sim <input type="radio" name="revisa" value="sim">
+                        Não <input type="radio" name="revisa" value="nao"></div>
+                </div>
+
+
+                <!-- Exames de imagem estão disponíveis  -->
+                <div class="field">
+                    <label for=""> Exames de imagem estão disponíveis?  </label>
+                    <div>Sim <input type="radio" name="sanguineo" value="sim">
+                        Não se aplica <input type="radio" name="sanguineo" value="nao"></div>
+                </div>
+
+                <!-- Revisão do cirurgião. Passos críticos Duração estimada /Possíveis perdas sanguíneas  -->
+                <div class="field">
+                    <label for=""> Revisão do cirurgião. Passos críticos
+                        Duração estimada /Possíveis perdas
+                        sanguíneas </label>
+                    <div>Sim <input type="radio" name="ReservaSanguinea" value="sim">
+                        Não <input type="radio" name="ReservaSanguinea" value="nao"></div>
+                </div>
+
+                <!-- Reserva sanguínea?  -->
+                <div class="field">
+                    <label for=""> Revisão do cirurgião. Passos críticos Duração estimada /Possíveis perdas sanguíneas  </label>
+                    <div>
+                        Sim <input type="radio" name="Acessovenoso" value="sim">
+                        Não <input type="radio" name="Acessovenoso" value="nao">
+
+                     
+                    </div>
+
+
+                </div>
+
+                <!--  Revisão do anestesista  -->
+                <div class="field">
+                    <label for="">  Revisão do anestesista </label>
+                    <div>
+                        Sim <input type="radio" name="Alergia" value="sim">
+                        Não <input type="radio" name="Alergia" value="nao">
+
+                    
+                    </div>
+
+
+                </div>
+
+                <div class="field">
+                    <label for="">  Fixação das etiquetas de esterilização no prontuário  </label>
+                    <div>
+                        Sim <input type="radio" name="Alergia" value="sim">
+                        Não <input type="radio" name="Alergia" value="nao">
+
+                    
+                    </div>
+
+
+                </div>
+
+                OBS: <textarea name="" id="" cols="30" rows="10"></textarea>
+
+                 <div class="field">
+                    <button class="success">Proximo</button>
+                 </div>
+
+                 <div class="field">
+                    <button class="danger">Cancela</button>
+                 </div>
+
+
+            </fieldset>
+
+          
+
+
+
+
+           
+
+
+            
+
+        </form>
+
+    </div>
+
+
+
+
+    <script src="../js/geral.js"></script>
+</body>
+
+</html>
