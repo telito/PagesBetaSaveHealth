@@ -22,7 +22,7 @@ fetch(URL, {
                 </h3>
 
                 <h3>
-                    <span>Circulante vinculado: </span>${data[i].nome_circulante}
+                    <span>Circulante vinculado: </span> -
                 </h3>
 
                 <h3>
